@@ -1,0 +1,8 @@
+--- printing raw triples ---
+(rdflib.term.BNode('N373a8323085a4eb48ba8a608e1e2f09d'), rdflib.term.URIRef('http://xmlns.com/foaf/0.1/mbox'), rdflib.term.URIRef('mailto:donna@example.org'))
+(rdflib.term.BNode('N373a8323085a4eb48ba8a608e1e2f09d'), rdflib.term.URIRef('http://www.w3.org/1999/02/22-rdf-syntax-ns#type'), rdflib.term.URIRef('http://xmlns.com/foaf/0.1/Person'))
+(rdflib.term.BNode('N373a8323085a4eb48ba8a608e1e2f09d'), rdflib.term.URIRef('http://xmlns.com/foaf/0.1/name'), rdflib.term.Literal('Donna Fales'))
+(rdflib.term.BNode('N373a8323085a4eb48ba8a608e1e2f09d'), rdflib.term.URIRef('http://xmlns.com/foaf/0.1/nick'), rdflib.term.Literal('donna', lang='foo'))
+--- printing mboxes ---
+mailto:donna@example.org
+b'@prefix dc: <http://purl.org/dc/elements/1.1/> .\n@prefix foaf: <http://xmlns.com/foaf/0.1/> .\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n@prefix xml: <http://www.w3.org/XML/1998/namespace> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n[] a foaf:Person ;\n    foaf:mbox <mailto:donna@example.org> ;\n    foaf:name "Donna Fales" ;\n    foaf:nick "donna"@foo .\n\n'
