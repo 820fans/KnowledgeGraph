@@ -1,0 +1,87 @@
+paper数据丢失2956条
+Query OK, 1202905 rows affected, 2956 warnings (59.96 sec)
+Records: 1202905  Deleted: 0  Skipped: 0  Warnings: 2956
+2092357
+
+author数据丢失2条, 1083119这行数据存在污染. 错误标注
+修改错误标注之后, 完整录入1712434条.与csv一致.
+Query OK, 1712433 rows affected, 2 warnings (18.38 sec)
+Records: 1712433  Deleted: 0  Skipped: 0  Warnings: 2
+
+paper数据丢失warning
++---------+------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Level   | Code | Message                                                                                                                                                                                     |
++---------+------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Warning | 1265 | Data truncated for column 'title' at row 405                                                                                                                                                |
+| Warning | 1265 | Data truncated for column 'title' at row 2363                                                                                                                                               |
+| Warning | 1265 | Data truncated for column 'title' at row 2438                                                                                                                                               |
+| Warning | 1265 | Data truncated for column 'title' at row 3053                                                                                                                                               |
+| Warning | 1265 | Data truncated for column 'authors' at row 3358                                                                                                                                             |
+| Warning | 1265 | Data truncated for column 'authors' at row 11003                                                                                                                                            |
+| Warning | 1265 | Data truncated for column 'abstract' at row 13298                                                                                                                                           |
+| Warning | 1366 | Incorrect integer value: '-;-' for column 'year' at row 13298                                                                                                                               |
+| Warning | 1265 | Data truncated for column 'title' at row 20931                                                                                                                                              |
+| Warning | 1265 | Data truncated for column 'title' at row 22413                                                                                                                                              |
+| Warning | 1265 | Data truncated for column 'abstract' at row 30714                                                                                                                                           |
+| Warning | 1366 | Incorrect integer value: 'The University of Computer Sciences, Austin, TX' for column 'year' at row 30714                                                                                   |
+| Warning | 1265 | Data truncated for column 'authors' at row 34946                                                                                                                                            |
+| Warning | 1265 | Data truncated for column 'abstract' at row 39971                                                                                                                                           |
+| Warning | 1366 | Incorrect integer value: '-' for column 'year' at row 39971                                                                                                                                 |
+| Warning | 1265 | Data truncated for column 'authors' at row 42616                                                                                                                                            |
+| Warning | 1265 | Data truncated for column 'abstract' at row 45416                                                                                                                                           |
+| Warning | 1265 | Data truncated for column 'abstract' at row 50207                                                                                                                                           |
+| Warning | 1366 | Incorrect integer value: '-' for column 'year' at row 50207                                                                                                                                 |
+| Warning | 1265 | Data truncated for column 'abstract' at row 52137                                                                                                                                           |
+| Warning | 1366 | Incorrect integer value: '-' for column 'year' at row 52137                                                                                                                                 |
+| Warning | 1265 | Data truncated for column 'abstract' at row 90190                                                                                                                                           |
+| Warning | 1265 | Data truncated for column 'abstract' at row 100916                                                                                                                                          |
+| Warning | 1366 | Incorrect integer value: '-;-' for column 'year' at row 100916                                                                                                                              |
+| Warning | 1265 | Data truncated for column 'authors' at row 112724                                                                                                                                           |
+| Warning | 1265 | Data truncated for column 'authors' at row 117401                                                                                                                                           |
+| Warning | 1265 | Data truncated for column 'authors' at row 117403                                                                                                                                           |
+| Warning | 1265 | Data truncated for column 'authors' at row 122718                                                                                                                                           |
+| Warning | 1265 | Data truncated for column 'authors' at row 122723                                                                                                                                           |
+| Warning | 1265 | Data truncated for column 'affiliations' at row 123576                                                                                                                                      |
+| Warning | 1366 | Incorrect integer value: 'Recently, W. Najjar and J.L. Gaudilot (1990) have proposed a new measure for network reliability which they called network resil' for column 'year' at row 123576 |
+| Warning | 1262 | Row 123576 was truncated; it contained more data than there were input columns                                                                                                              |
+| Warning | 1265 | Data truncated for column 'authors' at row 133916                                                                                                                                           |
+| Warning | 1265 | Data truncated for column 'abstract' at row 140245                                                                                                                                          |
+| Warning | 1265 | Data truncated for column 'abstract' at row 142126                                                                                                                                          |
+| Warning | 1265 | Data truncated for column 'authors' at row 142126                                                                                                                                           |
+| Warning | 1366 | Incorrect integer value: '-' for column 'year' at row 142126                                                                                                                                |
+| Warning | 1262 | Row 142126 was truncated; it contained more data than there were input columns                                                                                                              |
+| Warning | 1265 | Data truncated for column 'abstract' at row 142260                                                                                                                                          |
+| Warning | 1265 | Data truncated for column 'title' at row 148425                                                                                                                                             |
+| Warning | 1265 | Data truncated for column 'abstract' at row 148670                                                                                                                                          |
+| Warning | 1366 | Incorrect integer value: 'JCD Reprint Editor, Bellcore, Piscataway, NJ' for column 'year' at row 148670                                                                                     |
+| Warning | 1262 | Row 148670 was truncated; it contained more data than there were input columns                                                                                                              |
+| Warning | 1265 | Data truncated for column 'abstract' at row 167262                                                                                                                                          |
+| Warning | 1265 | Data truncated for column 'abstract' at row 167264                                                                                                                                          |
+| Warning | 1265 | Data truncated for column 'authors' at row 167264                                                                                                                                           |
+| Warning | 1366 | Incorrect integer value: 'Technisch Univ. Berlin, Berlin, Germany' for column 'year' at row 167264                                                                                          |
+| Warning | 1262 | Row 167264 was truncated; it contained more data than there were input columns                                                                                                              |
+| Warning | 1265 | Data truncated for column 'authors' at row 170897                                                                                                                                           |
+| Warning | 1265 | Data truncated for column 'abstract' at row 172885                                                                                                                                          |
+| Warning | 1366 | Incorrect integer value: 'Gunma Univ., Gunma, Japan' for column 'year' at row 172885                                                                                                        |
+| Warning | 1262 | Row 172885 was truncated; it contained more data than there were input columns                                                                                                              |
+| Warning | 1265 | Data truncated for column 'title' at row 173325                                                                                                                                             |
+| Warning | 1265 | Data truncated for column 'authors' at row 174902                                                                                                                                           |
+| Warning | 1265 | Data truncated for column 'abstract' at row 177296                                                                                                                                          |
+| Warning | 1265 | Data truncated for column 'authors' at row 177296                                                                                                                                           |
+| Warning | 1366 | Incorrect integer value: 'LIMA/ENSEEIHT, IRIT, UMR, Toulouse, France;LIMA/ENSEEIHT, IRIT, UMR, Toulouse, France;LIMA/ENSEEIHT, IRIT, UMR, Toulouse, France' for column 'year' at row 177296 |
+| Warning | 1262 | Row 177296 was truncated; it contained more data than there were input columns                                                                                                              |
+| Warning | 1265 | Data truncated for column 'title' at row 189563                                                                                                                                             |
+| Warning | 1366 | Incorrect integer value: 'SIAM Journal on Computing' for column 'year' at row 189563                                                                                                        |
+| Warning | 1261 | Row 189563 doesn't contain data for all columns                                                                                                                                             |
+| Warning | 1265 | Data truncated for column 'abstract' at row 192111                                                                                                                                          |
+| Warning | 1366 | Incorrect integer value: 'Twente University, Enschede, the Netherlands' for column 'year' at row 192111                                                                                     |
+| Warning | 1265 | Data truncated for column 'abstract' at row 195294                                                                                                                                          |
++---------+------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+authors数据丢失
++---------+------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Level   | Code | Message                                                                                                                                                                                 |
++---------+------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Warning | 1366 | Incorrect integer value: 'Austrian Foundry Research Institute, Leoben, Austriatomized for specific applications with a high relevance for NDT prac' for column 'pub_num' at row 1083119 |
+| Warning | 1262 | Row 1083119 was truncated; it contained more data than there were input columns                                                                                                         |
++---------+------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

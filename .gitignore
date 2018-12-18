@@ -1,0 +1,13 @@
+*.xml
+*.sql
+*.txt
+venv/
+.idea/
+data/
+.ipynb_checkpoints/
+./src/aminder/*.txt
+./src/aminder/*.xz
+./src/aminder/*.csv
+./src/aminder/data/
+./templates/
+
